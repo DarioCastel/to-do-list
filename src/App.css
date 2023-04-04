@@ -1,0 +1,33 @@
+.to-do-container{
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    padding: 2rem 1 rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    gap: 20px;
+    background-color: #e4e4e4;
+}
+
+.to-do-container h1{
+    min-width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+.card-head{
+    border-bottom: 2px solid red;
+    border-color: rgb(177, 166, 166);
+    gap: 20px;
+}
+
+.contadores-to-do{
+    display: flex;
+    background-color: whitesmoke;
+    gap: 10px;
+}
+
+.contadores-to-do span{
+    color: red;
+}

@@ -1,0 +1,22 @@
+.form-to-do{
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+}
+
+.input-to-do{
+    width: 70%;
+    background-color: black;
+    color: white;
+}
+
+.input-to-do ::placeholder{
+    background-color: black;
+    color: white;
+}
+
+.btn-submit{
+    border: 2px solid red;
+    cursor: pointer;
+    padding: 5px;
+}
