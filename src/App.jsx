@@ -1,26 +1,23 @@
 import { useState } from "react";
 import "./App.css";
-import AddForm from "./components/AddForm";
+import AddTodo from "./components/AddTodo";
+import TodoList from "./components/TodoList";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="App">
-      <div className="to-do-container">
-        <div className="card-head">
-          <h1>TASK TO DO</h1>
-          <div className="contadores-to-do">
-            <h3>n° of tasks: <span>5</span></h3>
-            <h3>n° pending tasks: <span>5</span></h3>
-          </div>
-        </div>
-        <div className="card-add">
-          <h2>Add task</h2>
-          <AddForm/>
-        </div>
-        aca va la lista de tareas
+    <div className="card-to-do">
+      <h1>LISTA DE TAREAS</h1>
+      <div className="counter-todos">
+        <h3>Nro de Tareas: <span>01</span></h3>
+        <h3>Nro de Pendientes: <span>01</span> </h3>
       </div>
+      <div className="add-todo">
+          <h3>AGREGAR TAREA</h3>
+          <AddTodo/>
+      </div>
+      <TodoList/>
     </div>
   );
 }
