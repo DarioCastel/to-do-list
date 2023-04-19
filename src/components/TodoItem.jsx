@@ -7,9 +7,7 @@ const TodoItem = () => {
     <li>
         <span><label className='container-done'></label></span>
         <TodoUpdate/>
-        <button className='btn-delete'>
-            <FaTrashAlt/>
-        </button>
+        <button className='btn-delete'><FaTrashAlt/></button>
     </li>
   )
 }
