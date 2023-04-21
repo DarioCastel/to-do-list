@@ -10,7 +10,7 @@ export const useTodo = () => {
 
   const nroTareas = todos.length;
 
-  const nroPendientes = todos.filter((el) => !el.done).length;
+
 
   useEffect(() => {
     localStorage.setItem("todos", JSON.stringify(todos));
@@ -50,7 +50,6 @@ export const useTodo = () => {
     handlerDeleteTodo,
     handlerCompleteTodo,
     todos,
-    nroTareas,
-    nroPendientes,
+    nroTareas
   };
 };

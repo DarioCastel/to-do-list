@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaEdit } from "react-icons/fa";
 
-const TodoUpdate = () => {
+const TodoUpdate = (el,handlerUpdateTodo) => {
   return (
     <form>
         <input type="text"  className='input-update' name='update-description' value="primera tarea"/>
